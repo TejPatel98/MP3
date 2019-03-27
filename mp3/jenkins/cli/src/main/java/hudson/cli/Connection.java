@@ -188,7 +188,9 @@ public class Connection {
 
         return ka;
     }
-
+	
+	// q5
+	
 	private KeyPair generateKeyPairWithSpec(DHParameterSpec foobar) throws NoSuchAlgorithmException, InvalidAlgorithmParameterException
 	{
 		KeyPairGenerator dh = KeyPairGenerator.getInstance("DH");
