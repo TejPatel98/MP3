@@ -1,0 +1,5 @@
+1. The lines from 558-568 are being repeated in lines 606-616. To prevent this, we can make a method and call that method wherever needed.
+
+3. updateComputerList() and trimLabels() are both defined in the Jenkins class, so the updateAndTrim() class can be defined there itself.
+
+4. make a for loop that iterates over i with an increment of 1 with each iteration.
