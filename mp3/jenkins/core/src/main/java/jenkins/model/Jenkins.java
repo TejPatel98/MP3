@@ -24,6 +24,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+
 package jenkins.model;
 
 import antlr.ANTLRException;
@@ -4245,6 +4246,7 @@ public class Jenkins extends AbstractCIBase implements DirectlyModifiableTopLeve
         }
     }
 
+	// q3 
 	void updateAndTrim(){
 		updateComputerList();
 		trimLabels();
