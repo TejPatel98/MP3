@@ -246,7 +246,10 @@ public abstract class IdStrategy extends AbstractDescribableImpl<IdStrategy> imp
                         }
                     } else if (c == '$') {
                         StringBuilder hex = new StringBuilder(4);
-                        for (int k = 0; k < 4; k ++){
+                        
+			// q4		
+	
+			for (int k = 0; k < 4; k ++){
                             i++;
                             if (i < chars.length) {
                                 hex.append(chars[i]);
