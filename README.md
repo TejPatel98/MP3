@@ -15,3 +15,5 @@ tested - mvn clean install -Dtest=jenkins.model.newTests -DfailIfNoTests=false
 q5 -	changed Connection.java
 
 tested - mvn clean install -Dtest=hudson.cli.Connection -DfailIfNoTests=false
+
+q6 - updated smelss.txt
