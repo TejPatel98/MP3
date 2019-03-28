@@ -3,3 +3,5 @@
 3. updateComputerList() and trimLabels() are both defined in the Jenkins class, so the updateAndTrim() class can be defined there itself.
 
 4. make a for loop that iterates over i with an increment of 1 with each iteration.
+
+6. We chose to work with the code on line numbers 307-315 and 317-325. That can be extracted and transformed into a seperate method which needs to be called in order to refactor.
